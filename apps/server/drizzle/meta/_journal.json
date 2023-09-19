@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1695149585528,
+      "tag": "0000_vengeful_lord_tyger",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1695150007095,
+      "tag": "0001_spotty_pepper_potts",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1695150345660,
+      "tag": "0002_mushy_aaron_stack",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1695151528313,
+      "tag": "0003_mighty_romulus",
+      "breakpoints": true
+    }
+  ]
+}
