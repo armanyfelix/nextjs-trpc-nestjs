@@ -8,9 +8,7 @@ import { drizzle } from 'drizzle-orm/mysql2';
       provide: 'mysqlConnection',
       inject: [],
       useFactory: () => {
-        const pool = createPool(
-          'mysql://root:zZCtEMgHtok17HGi1QQR@containers-us-west-74.railway.app:7656/railway' as string,
-        );
+        const pool = createPool(process.env.DATABASE_URL);
         return drizzle(pool);
       },
     },

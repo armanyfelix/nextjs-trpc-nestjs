@@ -5,7 +5,6 @@ export default {
   out: './drizzle',
   driver: 'mysql2',
   dbCredentials: {
-    connectionString:
-      'mysql://root:zZCtEMgHtok17HGi1QQR@containers-us-west-74.railway.app:7656/railway',
+    connectionString: process.env.DATABASE_URL,
   },
 } satisfies Config;
