@@ -1,4 +1,5 @@
-import type { Config } from 'drizzle-kit';
+import type { Config } from 'drizzle-kit'
+// import { databaseURL } from './constants/db';
 
 export default {
   schema: './src/drizzle/schema.ts',
@@ -7,4 +8,4 @@ export default {
   dbCredentials: {
     connectionString: process.env.MYSQL_URL,
   },
-} satisfies Config;
+} satisfies Config
