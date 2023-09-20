@@ -4,7 +4,7 @@ import { AppService } from './app.service'
 import { ConfigModule } from '@nestjs/config'
 import { TrpcModule } from './trpc/trpc.module'
 import { UsersModule } from './users/users.module'
-import { DrizzleModule } from './drizzle.module'
+import { DrizzleModule } from './drizzle/drizzle.module'
 
 @Module({
   imports: [

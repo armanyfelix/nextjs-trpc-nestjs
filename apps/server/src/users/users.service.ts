@@ -3,7 +3,7 @@ import { Inject, Injectable } from '@nestjs/common'
 import { CreateUserDto } from './dto/create-user.dto'
 import { UpdateUserDto } from './dto/update-user.dto'
 import { MySql2Database } from 'drizzle-orm/mysql2'
-import * as schema from '../schema'
+import * as schema from '../drizzle/schema'
 
 @Injectable()
 export class UsersService {

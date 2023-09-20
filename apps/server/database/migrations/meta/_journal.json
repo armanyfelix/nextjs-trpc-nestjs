@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1695248120871,
+      "tag": "0000_absurd_serpent_society",
+      "breakpoints": true
+    }
+  ]
+}
